@@ -1,0 +1,11 @@
+.tweet {
+  margin: 10px 0;
+}
+
+.favorite-true {
+  color: #e0245f;
+}
+
+.favorite-false {
+  color: rgb(210, 210, 210);
+}

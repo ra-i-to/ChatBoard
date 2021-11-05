@@ -1,0 +1,9 @@
+.messages .user-plate {
+  width: 80%;
+  margin: 0 10% 20px;
+  padding: 20px;
+}
+
+.messages .user-plate .user-name {
+  text-align: center;
+}

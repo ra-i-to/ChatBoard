@@ -1,0 +1,53 @@
+.chat .chat-messages-area {
+  height: calc(100vh - 280px);
+  margin: 0 20px;
+  overflow: scroll;
+}
+
+.chat .chat-messages-area .sender-message {
+  width: 100%;
+  text-align: right;
+}
+
+.chat-messages-area .radius-area {
+  display: inline-block;
+  margin: 12px 0;
+  border-radius: 16px;
+  padding: 8px 20px;
+  background-color: rgb(243, 243, 243);
+  max-width: 70vw;
+}
+
+.sender-message .radius-area {
+  background-color: white;
+  border: 1px solid rgb(221, 221, 221);
+}
+
+.chat-messages-area .radius-area span {
+  overflow-wrap: break-word;
+}
+
+.chat-messages-area .post-time {
+  font-size: 8px;
+  color: rgb(168, 168, 168);
+  position: absolute;
+  bottom: 0;
+}
+
+.sender-message,
+.receiver-message {
+  position: relative;
+}
+
+.sender-message .post-time {
+  right: 8px;
+}
+
+.receiver-message .post-time {
+  left: 8px;
+}
+
+.chat .chat-send-area .chat-send-message {
+  width: calc(100% - 90px) !important;
+  max-width: calc(100% - 90px) !important;
+}

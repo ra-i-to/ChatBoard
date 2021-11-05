@@ -1,0 +1,20 @@
+.header-menu a {
+  color: #707070;
+  text-decoration: none;
+  display: flex;
+}
+
+.header h6 a {
+  color: white;
+}
+
+.header-menu .MuiListItemText-root,
+.header-menu .MuiListItemIcon-root {
+  height: auto;
+  margin: 0;
+  height: 24px;
+}
+
+.MuiListItem-root > a {
+  padding: 8px 0;
+}

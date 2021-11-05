@@ -1,0 +1,27 @@
+.rooms .create-room-button {
+  width: 400px;
+  text-align: center;
+  margin: 20px calc(50% - 200px);
+}
+
+.rooms .room-list {
+  margin: 40px;
+}
+
+.rooms .room-list .room {
+  margin-bottom: 20px;
+  padding: 20px 40px;
+}
+
+.room .room-name {
+  font-size: 24px;
+}
+.room .room-author {
+  font-size: 16px;
+  text-align: right;
+}
+
+.rooms .block {
+  text-align: center;
+  margin-top: 40px;
+}

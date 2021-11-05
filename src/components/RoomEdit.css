@@ -1,0 +1,26 @@
+.room-edit .room-edit-area {
+  width: 400px;
+  margin: 20px calc(50% - 200px);
+}
+
+.room-edit .room-edit-area .MuiTextField-root {
+  margin: 0 50px;
+}
+
+.room-edit .room-edit-area .MuiTypography-h3::before {
+  content: none;
+}
+.room-edit .room-edit-area .MuiTypography-h3 {
+  text-align: center;
+}
+
+.room-edit .room-edit-button {
+  width: 200px;
+  text-align: center;
+  margin: 20px calc(50% - 100px);
+}
+
+.room-edit .room-delete-button {
+  width: 120px;
+  margin: 20px 0 20px 100%;
+}

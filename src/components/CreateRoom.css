@@ -1,0 +1,21 @@
+.create-room .create-room-area {
+  width: 400px;
+  margin: 20px calc(50% - 200px);
+}
+
+.create-room .create-room-area .MuiTextField-root {
+  margin: 0 50px;
+}
+
+.create-room .create-room-area .MuiTypography-h3::before {
+  content: none;
+}
+.create-room .create-room-area .MuiTypography-h3 {
+  text-align: center;
+}
+
+.create-room .create-room-button {
+  width: 200px;
+  text-align: center;
+  margin: 20px calc(50% - 100px);
+}

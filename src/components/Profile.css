@@ -1,0 +1,32 @@
+.profile .user-icon {
+  height: 100px;
+  width: 100px;
+  margin: 20px calc(50% - 50px);
+}
+
+.profile .user-name {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.profile .user-profile {
+  text-align: center;
+}
+
+.profile .feed-area {
+  margin-top: 60px;
+}
+
+.profile-area {
+  position: relative;
+}
+
+.profile .edit-profile-button,
+.profile .dm-button {
+  width: 120px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
